@@ -1,37 +1,55 @@
-PS C:\Users\Usuario> pwd
+# Ejercicio 1
 
-Path
-----
-C:\Users\Usuario
-
-
-PS C:\Users\Usuario>
-
-PS C:\Users\Usuario> mkdir ejercicios
+### Paso 1
+- PS C:\Users\Usuario> pwd
 
 
-    Directorio: C:\Users\Usuario
+### Paso 2
+
+- PS C:\Users\Usuario> mkdir ejercicios
 
 
-Mode                 LastWriteTime         Length Name
-----                 -------------         ------ ----
-d-----        14/11/2022     17:07                ejercicios
+### Paso 3
+- PS C:\Users\Usuario> cd ejercicios
+
+### Paso 4
+
+- Abrir la carpeta con VScode.
+
+### Paso 5
+
+- Crear la carpeta ejercicios1 en VSCode
+
+### Paso 6
+
+- Crear el archivo README.md en VSCode
+### Paso 7
+#### Configurar nombre y email en la consola
+
+- PS C:\Users\Usuario> git config --global user.name Angel Viveros
+- PS C:\Users\Usuario> git config --global user.email angelviveros92@gmail.com
+
+### Paso 8
+
+- PS C:\Users\Usuario\.vscode\ejercicios> git init
+- Reinitialized existing Git repository in C:/Users/Usuario/.vscode/ejercicios/.git/
 
 
-PS C:\Users\Usuario> cd ejercicios
-PS C:\Users\Usuario\ejercicios>
-
-PS C:\Users\Usuario> git config --global user.name Angel Viveros
-PS C:\Users\Usuario> git config --global user.email angelviveros92@gmail.com
-PS C:\Users\Usuario>
+### Paso 9
+#### Commit versión inicial
+- PS C:\Users\Usuario\.vscode\ejercicios> git commit -m "Version inicial"
 
 
-PS C:\Users\Usuario> cd C:\Users\Usuario\.vscode\ejercicios
-PS C:\Users\Usuario\.vscode\ejercicios> git init
-Reinitialized existing Git repository in C:/Users/Usuario/.vscode/ejercicios/.git/
-PS C:\Users\Usuario\.vscode\ejercicios>
+### Paso 11
 
-PS C:\Users\Usuario\.vscode\ejercicios> git commit -m "Version inicial"
-On branch master
-nothing to commit, working tree clean
-PS C:\Users\Usuario\.vscode\ejercicios>
+- PS C:\Users\Usuario\.vscode\ejercicios> git commit -m "Agrega solución primer ejercicio"
+
+### Paso 12
+
+- Publicar a Github en un repositorio " nivelacion-mir "
+
+### Paso 13
+
+- Enviar el link al repositorio en Github a la mentora.
+
+### Fin
