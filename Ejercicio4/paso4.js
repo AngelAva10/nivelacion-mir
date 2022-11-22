@@ -22,3 +22,6 @@ function calcularColor(numero) {
 }
 
 console.log(calcularColor(1));
+console.log(calcularColor(2));
+console.log(calcularColor(3));
+console.log(calcularColor(4));
